@@ -1,0 +1,562 @@
+<!-- Hayo Ngapain?:v -->
+<!-- Credit Template By Farhan -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- icon animated -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.8/font-awesome-animation.min.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rest Api - Ulhaq Mz</title>
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/vendors/owl-carousel-2/owl.carousel.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/vendors/owl-carousel-2/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://betabotz-api.herokuapp.com/css/style.css">
+    <link rel="shortcut icon" href="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png"><link rel="stylesheet" href="https://betabotz-api.herokuapp.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+    <link rel="shortcut icon" href="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png"><link rel="stylesheet" href="https://betabotz-api.herokuapp.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.css">
+    <script src="https://betabotz-api.herokuapp.com/ajax/libs/limonte-sweetalert2/7.33.1/sweetalert2.min.js"></script>
+   <meta name="description" content="UlhaqMz - API">
+   <meta property="og:image" content="https://telegra.ph/file/3bf07f7ca029cf3cb0c6f.jpg">
+   <meta property="og:site_name" content="Hax">
+   <meta name="keywords" content="REST API">
+   <meta name="author" content="Ulhaq Mz">
+  </head>
+  <body>
+  <body id="page-top" onload="getvisitor();">
+    <div class="container-scroller">
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
+          <a class="sidebar-brand brand-logo rounded-circle" href="#"><img src="images/logo1.png" alt="logo" /></a>
+          <a class="sidebar-brand brand-logo-mini" href="#"><img src="images/logo1.png" class="rounded-circle" alt="logo" /></a>
+        </div>
+       <font face="Original Surfer">
+        <ul class="nav">
+          <li class="nav-item profile">
+            <div class="profile-desc">
+              <div class="profile-pic">
+                <div class="count-indicator">
+                  <img class="img-xs rounded-circle " src="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png" alt="">
+                  <span class="count bg-success"></span>
+                </div>
+                <div class="profile-name">
+                  <h5 class="mb-0 font-weight-normal">Ulhaq Mz</h5>
+                  <span>Developer Website</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Dashboard</span>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="/docs">
+          <span class="menu-icon">
+          <i class="mdi mdi-speedometer faa-tada animated"></i>
+          </span>
+          <span class="menu-title">Dashboard</span>
+          </a>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Situs Lainnya</span>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="/api/game">
+          <span class="menu-icon">
+          <i class="mdi mdi-soccer faa-spin animated"></i>
+          </span>
+          <span class="menu-title">Web Game</span>
+          </a>
+          </li>
+          <li class="nav-item nav-category">
+            <span class="nav-link">Api Features</span>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="download">
+          <span class="menu-icon">
+          <i class="mdi mdi-download faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Download</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="search">
+          <span class="menu-icon">
+          <i class="mdi mdi-magnify faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Search</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="music">
+          <span class="menu-icon">
+          <i class="mdi mdi-itunes faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Music</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="stalk">
+          <span class="menu-icon">
+          <i class="mdi mdi-gmail faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Stalk</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="cecan">
+          <span class="menu-icon">
+          <i class="mdi mdi-folder-multiple-image faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Cecan</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="asupan">
+          <span class="menu-icon">
+          <i class="mdi mdi-chart-bar faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Asupan</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="maker">
+          <span class="menu-icon">
+          <i class="mdi mdi-folder-image faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Maker</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="textprome">
+          <span class="menu-icon">
+          <i class="mdi mdi-brush faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Textprome</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="tools">
+          <span class="menu-icon">
+          <i class="mdi mdi-wrench faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Tools</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="info">
+          <span class="menu-icon">
+          <i class="mdi mdi-alert-circle-outline faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Information</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="game">
+          <span class="menu-icon">
+          <i class="mdi mdi-google-controller faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Game</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="islamic">
+          <span class="menu-icon">
+          <i class="mdi mdi-star faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Islamic</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="simisimi">
+          <span class="menu-icon">
+          <i class="mdi mdi-emoticon-happy faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Simi-Simi</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="creator">
+          <span class="menu-icon">
+          <i class="mdi mdi-thumb-up faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Creator</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="primbon">
+          <span class="menu-icon">
+          <i class="mdi mdi-ghost faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Primbon</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="randomimage">
+          <span class="menu-icon">
+          <i class="mdi mdi-image-filter faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Random Image</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="randomtext">
+          <span class="menu-icon">
+          <i class="mdi mdi-cookie faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Random Text</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="nsfw">
+          <span class="menu-icon">
+          <i class="mdi mdi-heart-outline faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Nsfw</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="anime">
+          <span class="menu-icon">
+          <i class="mdi mdi-weather-cloudy faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Anime</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="news">
+          <span class="menu-icon">
+          <i class="mdi mdi-monitor faa-flash animated"></i>
+          </span>
+          <span class="menu-title">News</span>
+          </a>
+          </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" href="other">
+          <span class="menu-icon">
+          <i class="mdi mdi-xing faa-flash animated"></i>
+          </span>
+          <span class="menu-title">Other</span>
+          </a>
+          </li>
+            <li class="nav-item nav-category">
+          <span class="nav-link">Contact Me</span>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://github.com/ulhaqmz">
+              <span class="menu-icon">
+                <i class="mdi mdi-github-circle faa-tada animated"></i>
+              </span>
+              <span class="menu-title">Github</span>
+            </a>
+          </li>
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://wa.me/62895330026617">
+              <span class="menu-icon">
+                <i class="mdi mdi-whatsapp faa-tada animated"></i>
+              </span>
+              <span class="menu-title">WhatsApp</span>
+            </a>
+          </li>          
+          <li class="nav-item menu-items">
+            <a class="nav-link" href="https://instagram.com/ulhaqmz">
+              <span class="menu-icon">
+                <i class="mdi mdi-instagram faa-tada animated"></i>
+              </span>
+              <span class="menu-title">Instagram</span>
+            </a>
+          </li>
+          <li class="nav-item nav-category">
+          <span class="nav-link">Donasi</span>
+          </li>
+            </li>
+          <li class="nav-item menu-items">
+          <a class="nav-link" data-toggle="collapse" href="#ui-donasi" aria-expanded="false" aria-controls="ui-donasi">
+          <span class="menu-icon">
+          <i class="mdi mdi-cash-usd faa-tada animated"></i>
+          </span>
+          <span class="menu-title">Donasi Bang:></span>
+          <i class="menu-arrow"></i>
+          </a>
+          <div class="collapse" id="ui-donasi">
+          <ul class="nav flex-column sub-menu">
+          <li class="nav-item"> <a class="nav-link"href="https://telegra.ph/file/dbc1f3f02cadbd95f2a92.jpg">Gopay</a></li>
+          <li class="nav-item"> <a class="nav-link"href="https://telegra.ph/file/3d34f5943f2308173cb04.jpg">Dana</a></li>
+          </ul>
+          </div>
+          </li>
+          </li>
+          </li>
+          </ul>
+       </font>
+      </nav>
+      <div class="container-fluid page-body-wrapper">
+        <nav class="navbar p-0 fixed-top d-flex flex-row">
+          <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+            <a class="navbar-brand brand-logo-mini" href="/"><big><i class="mdi mdi-biohazard text-danger"></i></big></a>
+          </div>
+          <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+            <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+              <span class="mdi mdi-menu"></span>
+            </button>
+            <ul class="navbar-nav w-100">
+              <li class="nav-item w-100">
+                <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex ">
+                  <input type="text" class="form-control" placeholder="BetaBotz APIs">
+                </form>
+              </li>
+            </ul>
+            <ul class="navbar-nav navbar-nav-right">
+              <li class="nav-item nav-settings d-none d-lg-block">
+                <a class="nav-link" href="#">
+                  <i class="mdi mdi-view-grid"></i>
+                </a>
+              </li>
+              <li class="nav-item dropdown border-left">
+                <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                  <i class="mdi mdi-bell"></i>
+                  <span class="count bg-danger"></span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                  <h6 class="p-3 mb-0">Info New Update</h6>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi-calendar text-info faa-tada animated"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Update</p>
+                      <p class="text-muted ellipsis mb-0">Recode Template</p>
+                    </div>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                      <div class="preview-icon bg-dark rounded-circle">
+                        <i class="mdi mdi mdi-heart text-info faa-tada animated"></i>
+                      </div>
+                    </div>
+                    <div class="preview-item-content">
+                      <p class="preview-subject mb-1">Perapihan</p>
+                      <p class="text-muted ellipsis mb-0">List Api</p>     
+                      </div>               
+                  </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                  <div class="navbar-profile">
+                    <img class="img-xs rounded-circle" src="https://telegra.ph/file/f17f2a1ef76c43abd26f7.png" alt="">
+                    <p class="mb-0 d-none d-sm-block navbar-profile-name">Ulhaq Mz</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+              <span class="mdi mdi-format-line-spacing"></span>
+            </button>
+          </div>
+        </nav>
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="row">
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold text-danger text-uppercase">IP Address</h5>
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h3 class="mb-0" id="ip">Waiting...</h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success">
+                          <span class="mdi mdi-access-point-network icon-item faa-tada animated"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <font face="Original Surfer" class="text-muted font-weight-normal">Your IP Address</font>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h6 class="font-weight-bold text-info text-uppercase">Your Battery</h6>
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                        	<span id="batteryLevel"></span>
+                          <h3 class="mb-0" id="percentageLevel">Waiting...</h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success ">
+                          <span class="mdi mdi-battery-positive faa-tada animated"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <font face="Original Surfer" class="text-muted font-weight-normal">Percentase Your Battery</font>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold text-success text-uppercase">Visitor</h5>
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h3 class="mb-0" id="visits">Waiting...</h3>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success ">
+                          <span class="mdi mdi-eye icon-item faa-tada animated"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <font face="Original Surfer" class="text-muted font-weight-normal">Visit Web</font>
+                  </div>
+                </div>
+              </div>
+            <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold text-info text-uppercase">Date</h5>
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h4 class="mb-0" id="tanggal">Waiting...</h4>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success ">
+                          <span class="mdi mdi-calendar icon-item faa-tada animated"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <font face="Original Surfer" class="text-muted font-weight-normal">Date Now</font>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold text-success text-uppercase">Clock</h5>
+                    <div class="row">
+                      <div class="col-9">
+                        <div class="d-flex align-items-center align-self-start">
+                          <h4 class="mb-0" id="Clock">Waiting...</h4>
+                        </div>
+                      </div>
+                      <div class="col-3">
+                        <div class="icon icon-box-success ">
+                          <span class="mdi mdi-clock icon-item faa-tada animated"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <font face="Original Surfer" class="text-muted font-weight-normal" id="Ucapan">Ucapan</font>
+                  </div>
+                </div>
+              </div>         
+            </div>            
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-gw-3+1f-3d+2z" data-ad-client="ca-pub-5404310597803049" data-ad-slot="6657550061"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+            <div class="row">
+              <div class="col-md-6 col-xl-4 grid-margin stretch-card">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="mt-3 btn btn-outline-info bg-transparent">
+                    <div id="demo" class="alert btn btn-outline-info" role="alert">
+                      <span id="Statistic">Waiting...</span>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+              <div class="card-body">
+              <img src="https://telegra.ph/file/d952af04f3f11f171267a.jpg" alt="BetaBotz" class="logo img-fluid rounded mx-auto d-block mb-4"/>
+              <h6 class="m-0 font-weight-bold text-primary">Information</h6>
+              <h6><br>
+              Rest Api Ini Free, Silahakan Dipake Dengan Bijak Yaa <br><br>Apikey Nya? <font color="red">ulhaqmz</font>
+              <br> Jika menemukan Bug/Eror Contact Saya Di <a href="http://wa.me/62895330026617?text=Bang+Ganteng+Api+Eror+😍">Whatsapp</a></font>
+              </div>
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <div class="bg-dark btn btn-block btn-outline-danger">
+                <font face="Original Surfer" class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <span id="Years">00</span> LannOfc</font>
+              </div>
+            </div>
+            </div>
+              <div class="col-md-12 grid-margin stretch-card">
+              <div class="card">
+              <div class="card-body">
+              <img src="https://telegra.ph/file/4825fec4df3ae2de5d218.jpg" alt="UlhaqMz" class="logo img-fluid rounded mx-auto d-block mb-4"/>
+              <h6 class="m-0 font-weight-bold text-primary">Thanks To</h6>
+              <h6><br>
+               <li>Allah SWT</li>
+                  <li>Nabi Muhammad Saw</li>
+                  <li>Ulhaq Mz (Me)<li>
+                  <li>Lann Ofc</li>
+                  <li>ReySekha</li>
+                  <li>Zahirr</li>
+                  <li>Fandyy</li>
+                  <li>My Ortu</li>
+                  <li>Fardan Xwer</li>
+                  <li>Atak Bot</li>
+                  <li>Penyedia Module Api</li>
+                  <li>Stisla For Template</li>
+                  <li>Dan kalian yang sudah menggunakan api dengan baik</li>
+              </div>
+          <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+              <div class="bg-dark btn btn-block btn-outline-danger">
+                <font face="Original Surfer" class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © <span id="Years">00</span> LannOfc</font>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      swal({
+        title: 'Welcome To Rest Api Ulhaq Mz',
+        text: 'Gunakan Dengan Bijak',
+        imageUrl: 'https://telegra.ph/file/f17f2a1ef76c43abd26f7.png',
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: 'Danu',
+        animation: true
+      })
+    </script>  
+    <script> 
+  	$.getJSON("https://api.countapi.xyz/hit/hax-api.herokuapp.com/visits",
+	function(data) {
+	$("#visitor").html(data.value);
+	})
+	</script>
+			<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>   
+       <script src="https://betabotz-api.herokuapp.com//vendors/js/vendor.bundle.base.js"></script>
+    <script src="https://betabotz-api.herokuapp.com//vendors/owl-carousel-2/owl.carousel.min.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/off-canvas.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/hoverable-collapse.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/misc.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/settings.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/todolist.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/dashboard.js"></script>
+    <script src="https://betabotz-api.herokuapp.com/js/ojan.js"></script>
+    <audio autoplay="autoplay" hidden="hidden" src="https://g.top4top.io/m_2349enk3v0.mp3"></audio>
+  </html>
