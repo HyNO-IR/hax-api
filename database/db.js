@@ -3,16 +3,16 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://betabotz-api.herokuapp.com/';
+var url = 'https://hax-api.herokuapp.com/';
 try {
-if(url == 'https://betabotz-api.herokuapp.com/') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'https://hax-api.herokuapp.com/') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
 var db = monk(url);
 
 db.then(() => {
-  console.log(color('Connected correctly to server, BetaBotz','green'))
+  console.log(color('Connected correctly to server, HaxApi','green'))
 })
 .catch ((e) => {
 	console.log(color('Error : '+ e +'\n\nGagal connect ke database, \ncek configurasi database apakah Connection URL sudah benar','red'))
