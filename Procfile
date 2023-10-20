@@ -1,1 +1,1 @@
-web: node index.js
+web:npm i -g pm2 && pm2 start . --attach
