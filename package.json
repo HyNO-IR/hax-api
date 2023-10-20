@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inirey/RESTAPI.git"
+    "url": "git+https://github.com/HyNO-IR/hax-api.git"
   },
   "keywords": [
     "simple",
